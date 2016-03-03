@@ -1,0 +1,6 @@
+Warning: specified :main without including it in :aot. 
+Implicit AOT of :main will be removed in Leiningen 3.0.0. 
+If you only need AOT for your uberjar, consider adding :aot :all into your
+:uberjar profile instead.
+Created /home/mike/systemProperties/target/systemProperties-1.0.0-SNAPSHOT.jar
+Created /home/mike/systemProperties/target/systemProperties-1.0.0-SNAPSHOT-standalone.jar

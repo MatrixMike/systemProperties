@@ -1,0 +1,17 @@
+file.separator:/
+java.class.path:target/systemProperties-1.0.0-SNAPSHOT-standalone.jar
+java.home:/usr/lib/jvm/java-8-oracle/jre
+java.vendor:Oracle Corporation
+java.vendor.url:http://java.oracle.com/
+java.version:1.8.0_72
+line.separator:
+
+os.arch:amd64
+os.name:Linux
+os.version:3.13.0-37-generic
+path.separator::
+user.dir:/home/mike/systemProperties
+user.home:/home/mike
+user.name:mike
+java.vm.version:25.72-b15
+nil
