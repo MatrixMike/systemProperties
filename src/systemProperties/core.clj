@@ -75,7 +75,7 @@
 
 (defn showProp [prop]
 	( println  (str prop ":" (System/getProperty prop))))
-(showProp prop1)
+;; (showProp prop1)
 	;; mod 17.04.2015 02:06:39
 (showProp prop1)
 (showProp prop2)
