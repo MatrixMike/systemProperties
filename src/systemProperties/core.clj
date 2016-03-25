@@ -1,7 +1,7 @@
 (ns systemProperties.core
 	(:gen-class ))
 
-(defn -main [& args]
+(defn -main [& args]  ;; allows variable number of parameters
 
 (def prop1 "file.separator") 	;;Character that separates components of a file path. This is "/" on UNIX and "\" on Windows.
 (def prop2 "java.class.path") 	;;Path used to find directories and JAR archives containing class files. Elements of the class path are separated by a platform-specific character specified in the path.separator property.
@@ -33,7 +33,7 @@
 (def prope "user.name") 	;;User account name
 (def propf "java.vm.version") 	;;
 
-
+ (def tobechecked (seq [prop1 prop2 prop3]))
 
 (System/getProperty prop1)
 (System/getProperty prop2)
@@ -92,5 +92,6 @@
 (showProp propd)
 (showProp prope)
 (println (showProp propf))
+(println tobechecked)  ;; example of printing a sequence 
 )
 
