@@ -93,7 +93,10 @@
 (showProp prope)
 (println (showProp propf))
 (println tobechecked)  ;; example of printing a sequence 
-(doseq [x tobechecked] print x)  ;; maybe revise this
+(println "marker string")
+(doseq [x tobechecked] (println (System/getProperty  x)))  ;; maybe revise this
+(println "marker string")
+(doseq [x tobechecked] (println (showProp  x)))  ;; maybe revise this
 
 )
 
