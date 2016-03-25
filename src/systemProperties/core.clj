@@ -33,7 +33,7 @@
 (def prope "user.name") 	;;User account name
 (def propf "java.vm.version") 	;;
 
- (def tobechecked (seq [prop1 prop2 prop3]))
+ (def tobechecked (seq [prop1 prop2 prop3 prop4 prop5 prop6]))
 
 (System/getProperty prop1)
 (System/getProperty prop2)
@@ -93,5 +93,7 @@
 (showProp prope)
 (println (showProp propf))
 (println tobechecked)  ;; example of printing a sequence 
+(doseq [x tobechecked] print x)  ;; maybe revise this
+
 )
 
