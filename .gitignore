@@ -6,3 +6,6 @@
 /.lein-failures
 /checkouts
 /.lein-deps-sum
+*.class
+*.extract-native-dependencies
+*.properties
